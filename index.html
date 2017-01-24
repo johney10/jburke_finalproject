@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+</head>
+<body>
+	<div id="master" class="mdl-grid">
+		<div id="hot" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+			<img src="images/sunicon.jpg" alt="hot weather hipsters">
+		</div>
+		<div id="warm" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+			<img src="images/suncloudicon.jpg" alt="">
+		</div>
+		<div id="mild" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+			<img src="images/rainicon.jpg" alt="">
+		</div>
+		<div id="cold" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
+			<img src="images/snowicon.jpg" alt="">
+		</div>
+
+		<div class = "sectionOne" class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone" >
+			<button id="demo">
+				Tell me what to wear
+			</button>
+			
+		</div>
+		<div class = "sectionTwo" class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+			
+			<div id="clothes" >
+				
+			</div>
+			
+		</div>
+		<div class = "emailForm"class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+			<form method="POST" action="http://formspree.io/johney100dev@gmail.com">
+	  <input type="email" name="email" placeholder="Your email"> <br>
+	  <input type="text" name="firstname" placeholder="First Name"><br>
+	  <input type="text" name="secondname" placeholder="Second Name"><br>
+	  <button class ="formSubmit" type="submit">Send</button>
+	  <input type="hidden" name="_next" value="thankyou.html" />
+	</form>
+			
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
