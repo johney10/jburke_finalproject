@@ -7,9 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TPRCKLZ');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPRCKLZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 	<div id="master" class="mdl-grid">
 		<div id="hot" class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
 			<img src="images/sunicon.jpg" alt="hot weather hipsters">
@@ -38,15 +48,18 @@
 			
 		</div>
 		<div class = "emailForm"class="mdl-cell mdl-cell--12-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-			<form method="POST" action="http://formspree.io/johney100dev@gmail.com">
-	  <input type="email" name="email" placeholder="Your email"> <br>
-	  <input type="text" name="firstname" placeholder="First Name"><br>
-	  <input type="text" name="secondname" placeholder="Second Name"><br>
-	  <button class ="formSubmit" type="submit">Send</button>
-	  <input type="hidden" name="_next" value="thankyou.html" />
-	</form>
 			
-		</div>
+			<form name= "my-form" class= "my-form" method="POST" action="http://formspree.io/johney100dev@gmail.com">
+			<div class= "row-item">		
+			  <input type="email" name="email" placeholder="Your email"><br>
+			  <input type="text" name="firstname" placeholder="First Name"><br>
+			  <input type="text" name="secondname" placeholder="Second Name"><br>
+			  <button class ="formSubmit" type="submit">Submit</button>
+			  <input type="hidden" name="_next" value="thankyou.html" />
+			  </div>
+			</form>
+			</div>
+
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 	<script src="js/script.js"></script>

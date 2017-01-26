@@ -20,6 +20,7 @@ $(document).ready(function(){
 
                  $("#clothes").html('<img src="images/cold.png">');
                  $("#cold").css("display", "block");
+
                  $(".emailForm").css("display", "block");
 
                 } else if (temp >45&& temp<=75) {
@@ -42,14 +43,6 @@ $(document).ready(function(){
                  $(".emailForm").css("display", "block");
 
                 }
-
-
-
-
-                
-                
-
-
 
 
       });

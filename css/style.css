@@ -39,6 +39,12 @@
 
 }
 
+#demo:hover{
+	background-color: #75DBCD;
+	box-shadow: 2px 2px 2px #888;
+
+}
+
 #clothes{
   
   
@@ -83,5 +89,8 @@ opacity: 30%;
 	padding-top: 64px;
 	opacity: 30%;
 }
+
+
+
 
 
